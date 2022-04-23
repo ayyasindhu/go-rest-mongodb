@@ -124,7 +124,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n        \"title\": \"Title (2)\",\n        \"description\": \"Description (2)\"\n}"
+					"raw": "{\n\t\t\t\t\t\"vehicle\": {\n\t\t\t\t\t\t\"registrationNumber\": \"test123\",\n\t\t\t\t\t\t\"vehicleMake\": \"test123\",\n\t\t\t\t\t\t\"vehicleModel\": \"test123\",\n\t\t\t\t\t\t\"vehicleVariant\": \"test123\",\n\t\t\t\t\t\t\"registrationDate\": \"test123\",\n\t\t\t\t\t\t\"manufactureYear\": \"test123\",\n\t\t\t\t\t\t\"rtoCode\": \"test123\",\n\t\t\t\t\t\t\"rtoLocation\": \"test123\",\n\t\t\t\t\t\t\"fuelType\": \"test123\",\n\t\t\t\t\t\t\"engineNo\": \"test123\",\n\t\t\t\t\t\t\"chasisNo\": \"test123\"\n\t\t\t\t\t},\n\t\t\t\t\t\"customer\": {\n\t\t\t\t\t\t\"individualOrOrganisation\": \"test123\",\n\t\t\t\t\t\t\"individual\": {\n\t\t\t\t\t\t\t\"firstName\": \"test123\",\n\t\t\t\t\t\t\t\"lastName\": \"test123\"\n\t\t\t\t\t\t},\n\t\t\t\t\t\t\"organisation\": {\n\t\t\t\t\t\t\t\"organisationName\": \"test123\"\n\t\t\t\t\t\t},\n\t\t\t\t\t\t\"permanentAddress\": \"test123\",\n\t\t\t\t\t\t\"communicationAddress\": \"test123\",\n\t\t\t\t\t\t\"phoneNumber\": \"test123\",\n\t\t\t\t\t\t\"emailAddress\": \"test123\",\n\t\t\t\t\t\t\"dateOfBirth\": \"test123\",\n\t\t\t\t\t\t\"nomineeName\": \"test123\",\n\t\t\t\t\t\t\"nomineeAge\": \"test123\",\n\t\t\t\t\t\t\"nomineeRelationship\": \"test123\"\n\t\t\t\t\t},\n\t\t\t\t\t\"insurance\": {\n\t\t\t\t\t\t\"insuranceProvider\": \"test123\",\n\t\t\t\t\t\t\"policyNumber\": \"test123\",\n\t\t\t\t\t\t\"policyType\": \"test123\",\n\t\t\t\t\t\t\"policyTerm\": \"test123\",\n\t\t\t\t\t\t\"riskStartDate\": \"test123\",\n\t\t\t\t\t\t\"riskEndDate\": \"test123\"\n\t\t\t\t\t}\n\t\t\t\t}"
 				},
 				"url": {
 					"raw": "http://localhost:3000/api/vehicleRegistrationNumber",
